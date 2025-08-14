@@ -48,7 +48,7 @@ Known issues:
    - [x] does not affect gameplay
    - [x] Should be fixed, but may reappear
 2. Camera will follow mainPivot making it difficult to do stuff at the ends of the car (esp. with longer articulated cars)
-   - [ ] Working on it
+   - [ ] ~Working on it~ Not doable without refactoring too much code for comfort
 3. Editor saving will cause a "identifier not found" error
    - [x] Does not appear to affect saving the definition files, probably will not fix
 4. Component parents cannot be set in editor
