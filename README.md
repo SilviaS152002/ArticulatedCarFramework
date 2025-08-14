@@ -55,3 +55,5 @@ Known issues:
    - [ ] Due to how model hierarchy is loaded, probably can't fix
    - [ ] Create the components, save, exit, manually set component parents, then go back into editor
    - [ ] Note that first line in the component parent path should be name of a pivot in "pivots" list
+
+Includes a teeny tiny little patch such that first-person car-pushing is based on your facing direction instead of where you are relative to the center of the car.
