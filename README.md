@@ -4,7 +4,8 @@ For modders:
 
 Defining the car:
 Rather than the original "modelIdentifier" under "definition", it uses each individual "modelIdentifier" under each pivot in "pivots".
-The original "modelIdentifier" is instead reused for loading a (preferably empty) gameObject that has nothing more than the AnimationMap and MaterialMap of the model.
+
+The original "modelIdentifier" string is instead reused for loading a (preferably empty) gameObject that has nothing more than the AnimationMap and MaterialMap of the model.
 
 The bundle structure should look something like the steam locomotive ones:
 ```
