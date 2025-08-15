@@ -1,4 +1,4 @@
-For users: Go to [Releases](https://github.com/SilviaS152002/ArticulatedCarFramework/releases).
+For users: Go to [Releases](https://github.com/SilviaS152002/ArticulatedCarFramework/releases), and also grab [this file](https://github.com/SilviaS152002/ArticulatedCarFramework/blob/main/NS15.ArticulatedSideDumpHopper_v1.0.zip) for a demo.
 
 For modders:
 
