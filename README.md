@@ -13,7 +13,7 @@ bundle
 ├ carBodyF
 ├ carBodyM
 ├ carBodyR
-├ truckPivotBodyAddonBits
+├ truckPivotBodyAddonBits (optional)
 └ carMaps // modelIdentifier should point to this 
 ```
 
