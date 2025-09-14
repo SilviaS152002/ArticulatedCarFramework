@@ -48,7 +48,7 @@ Known issues:
    - [x] does not affect gameplay
    - [x] Should be fixed, but may reappear
 2. Camera will follow mainPivot making it difficult to do stuff at the ends of the car (esp. with longer articulated cars)
-   - [x] ~Working on it~ Done, will be in beta10
+   - [x] Added in beta10
 3. Editor saving will cause a "identifier not found" error
    - [x] Does not appear to affect saving the definition files, probably will not fix
 4. Component parents cannot be set in editor
@@ -64,3 +64,6 @@ Known issues:
 
 Extras:
 Includes a teeny tiny little patch such that first-person car-pushing is based on your facing direction instead of where you are relative to the center of the car.
+
+Future plans:
+- A powertrain system that lets you define separate parts for engine / transmission combos then put them together. It probably will be a lot more simplified than the original game implementation.
