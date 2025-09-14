@@ -59,7 +59,7 @@ Known issues:
    - [x] Patched in beta10
 6. If maps are not defined, train will load in normal gameplay but will not load in editor
    - [ ] Won't fix
-7. wheelsets defined as mainPivot will not rotate
+7. if mainPivot has a truck, it will not roll
    - [x] Patched in beta11
 
 Extras:
