@@ -57,6 +57,10 @@ Known issues:
    - [ ] Note that first line in the component parent path should be name of a pivot in "pivots" list
 5. Couplers tilt up/down towards connecting coupler. Most noticable if the couplers are at very different heights.
    - [x] Patched in beta10
+6. If maps are not defined, train will load in normal gameplay but will not load in editor
+   - [ ] Won't fix
+7. wheelsets defined as mainPivot will not rotate
+   - [x] Patched in beta11
 
 Extras:
 Includes a teeny tiny little patch such that first-person car-pushing is based on your facing direction instead of where you are relative to the center of the car.
