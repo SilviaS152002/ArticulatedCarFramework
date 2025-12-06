@@ -5,9 +5,9 @@ The code to support articulated cars is done. It's in beta because I wanted to a
 For modders:
 
 Defining the car:
-Rather than the original "modelIdentifier" under "definition", it uses each individual "modelIdentifier" under each pivot in "pivots".
+Rather than the original `modelIdentifier` under `definition`, it uses each individual `modelIdentifier` under each pivot in `pivots`.
 
-The original "modelIdentifier" string is instead reused for loading a (preferably empty) gameObject that has nothing more than the AnimationMap and MaterialMap of the model.
+The original `modelIdentifier` string is instead reused to load a (otherwise empty) game object that only has the `AnimationMap` and `MaterialMap` of the model.
 
 The bundle structure should look something like the steam locomotive ones:
 ```
@@ -19,7 +19,7 @@ bundle
 └ carMaps // modelIdentifier should point to this 
 ```
 
-Basically, add this in "definition":
+Basically, add this in `definition`:
 
 ```C#
 "pivots":
@@ -43,7 +43,7 @@ Basically, add this in "definition":
 "endGearParentR": // same as above
 ```
 
-Adjust "length" of car to be the length of *the entire car*.
+Adjust `length` of car to be the length of *the entire car set*.
 
 Known issues:
 1. if mainPivot has a model, it may not load in at first
@@ -68,4 +68,5 @@ Extras:
 Includes a teeny tiny little patch such that first-person car-pushing is based on your facing direction instead of where you are relative to the center of the car.
 
 Future plans:
-- A powertrain system that lets you define separate parts for engine / transmission combos then put them together. It probably will be a lot more simplified than the original game implementation.
+- ~~A powertrain system that lets you define separate parts for engine / transmission combos then put them together. It probably will be a lot more simplified than the original game implementation.~~
+- Bodging the vanilla diesel engine code onto articulated cars.
