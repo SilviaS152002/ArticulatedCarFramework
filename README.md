@@ -1,5 +1,7 @@
 For users: Go to [Releases](https://github.com/SilviaS152002/ArticulatedCarFramework/releases), and also download [this file for articulated hoppers](https://github.com/SilviaS152002/ArticulatedCarFramework/blob/main/NS15.ArticulatedSideDumpHopper_v1.0.1.zip) for a demo.
 
+The code to support articulated cars is done. It's in beta because I wanted to add articulated diesel loco supportas well, then got burnt out, then university started. So it's sidelined.
+
 For modders:
 
 Defining the car:
