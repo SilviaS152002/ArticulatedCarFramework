@@ -1,0 +1,5 @@
+
+// AddCarInternal & HandleCreateCarsAsTrain -> PostAdd(Car) -> ModelLoadRetain -> LoadModels -> ASYNC LoadModelsAsync -> HandleModelsLoaded -> DidLoadModels -> SetupTrucks -> set truckA
+//                │                                │                                                                             └-> BodyTransform
+//                │                                └-> GetSpherePosition -> GetCenterPosition -> LocationsAssertValid -> PositionWheelBoundsFront -> wheelBoundsF, wheelBoundsR
+//                └-> CreateCarIfNeeded -> CreateCarRaw -> Setup -> FinishSetup (type-specific def2class loading)
