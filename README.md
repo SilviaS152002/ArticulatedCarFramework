@@ -26,9 +26,9 @@ Basically, add this in `definition`:
 {
   [
     "name":              // At least one pivot must have the name "mainPivot", preferably in the center
-    "modelIdentifier":   // put your model identifier here, do not define / leave blank / null for no model
+    "modelIdentifier":   // put your model identifier here, leave blank / null for no model
     "truckIdentifier":   // same as above, if this is defined then this pivot will be treated as a truck
-    "pivotA":            // name of the front pivot inside this list of pivots that the current pivot should base their position on. Do not define / leave blank / null if you have defined a truck
+    "pivotA":            // name of the front pivot inside this list of pivots that the current pivot should base their position on. Leave blank / null if you have defined a truck
     "offsetA":           // amount of offset that should be applied forwards / backwards with respect to pivotA
                          // Imagine a beam attached lengthwise to pivotA and this is how far forward/backward from the center of pivotA you attach the pivot point onto this beam
     "pivotB":            // same, but for the back pivot
