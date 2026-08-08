@@ -64,8 +64,7 @@ Known issues:
 7. if mainPivot has a truck, it will not roll
    - [x] Patched in beta11
 8. extra-long articulated sets allow switch to be set under them under certain conditions, leading to derailment / warping
-   - [X] Patched in beta12
-   - [X] Maybe probably patched in beta13
+   - [X] ~~Patched in beta12~~ Maybe probably finally possibly patched in beta13
 
 Extras:
 Includes a teeny tiny little patch such that first-person car-pushing is based on your facing direction instead of where you are relative to the center of the car.
